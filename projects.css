@@ -1,0 +1,480 @@
+body {
+    background-color: rgb(49, 63, 75);
+}
+
+#wrapper {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    height: 2550px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(19, 24, 29);
+    border-width: 5px;
+}
+
+.greatwhite {
+    border-style: solid;
+    border-color: rgb(49, 63, 75);
+    border-width: 2px;
+    height: 920px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.greatwhite p {
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 1px;
+    color: rgb(49, 63, 75);
+}
+
+.shrimp {
+    border: 4px;
+    color: rgb(49, 63, 75);
+    border-style: solid;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 74px;
+    text-align: center;
+}
+
+.shrimp header {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(49, 63, 75);
+    font-size: 25px;
+}
+
+.shrimp nav {
+    list-style-type: none;
+}
+
+.shrimp a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(49, 63, 75);
+}
+
+.shrimp a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.morrayeel {
+    width: 400px;
+    float: left;
+    margin: 10px;
+    padding-left: 90px;
+    display: flex;
+}
+
+.morrayeel img {
+    border: 2px;
+    border-color: rgb(166, 173, 179);
+    border-style: solid;
+    height: 300px;
+    padding: 4%;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.tigershark {
+    width: 400px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.tigershark img {
+    border: 2px;
+    border-color: rgb(166, 173, 179);
+    border-style: solid;
+    height: 300px;
+    padding: 4%;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.bananaeel {
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.bananaeel img {
+    border: 2px;
+    border-color: rgb(166, 173, 179);
+    border-style: solid;
+    height: 300px;
+    padding: 4%;
+    display: flex;
+}
+
+.lemonshark {
+    width: 400px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.lemonshark img {
+    border: 2px;
+    border-color: rgb(166, 173, 179);
+    ;
+    border-style: solid;
+    height: 300px;
+    padding: 4%;
+    display: flex;
+}
+
+.krill {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.krill h4 {
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.whale {
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.whale p {
+    padding: 5%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    color: rgb(43, 49, 52);
+    font-size: 15px;
+}
+
+.whale a {
+    color: rgb(43, 49, 52);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.whale a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.seahorse {
+    width: 400px;
+    float: right;
+    margin-left: 1px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+
+}
+
+.seahorse img {
+    padding: 5%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+}
+
+.seahorse p {
+    padding: 5%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+}
+
+.nurseshark {
+    width: 400px;
+    float: right;
+    margin-left: 1px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.nurseshark img {
+    padding: 5%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+}
+
+.crab {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 350px;
+    margin-bottom: 5px;
+}
+
+.crab h4 {
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.greenlandshark {
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.greenlandshark p {
+    padding: 5%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    color: rgb(43, 49, 52);
+    font-size: 15px;
+}
+
+.greenlandshark a {
+    color: rgb(43, 49, 52);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.greenlandshark a:hover {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    margin-top: 10px;
+    margin-top: 360px;
+}
+
+a {
+    text-align: center;
+    color: rgb(49, 63, 75);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #wrapper {
+        width: 1300px;
+        height: 1700px;
+        padding-top: 10%;
+    }
+
+    .shrimp p {
+        display: none;
+    }
+
+    .greatwhite p {
+        display: none;
+    }
+
+    .shrimp header {
+        font-size: 50px;
+    }
+
+    .shrimp {
+        height: 140px;
+    }
+
+    .shrimp a {
+        font-size: 30px;
+    }
+
+    .greatwhite {
+        border: 0px;
+        height: 10px;
+    }
+
+    .morrayeel {
+        display: none;
+    }
+
+    .tigershark {
+        display: none;
+    }
+
+    .bananaeel {
+        display: none;
+    }
+
+    .lemonshark {
+        display: none;
+    }
+
+    .krill h4 {
+        margin-top: 160px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 500px;
+        height: 2300px;
+        margin-left: 4%;
+        margin-right: 7%;
+        padding-top: 2%;
+    }
+
+    .shrimp {
+        margin-top: 4%;
+    }
+
+    .greatwhite {
+        height: 1370px;
+    }
+
+    .morrayeel {
+        float: left;
+        margin-left: 43px;
+        margin-right: 800px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .morrayeel img {
+        float: left;
+        width: 280px;
+        height: 250px;
+    }
+
+    .tigershark {
+        float: left;
+        margin-left: 43px;
+        margin-right: 800px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .tigershark img {
+        float: left;
+        width: 280px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .bananaeel {
+        float: left;
+        margin-left: 43px;
+        margin-right: 800px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .bananaeel img {
+        float: left;
+        width: 280px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .lemonshark {
+        float: left;
+        margin-left: 43px;
+        margin-right: 800px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .lemonshark img {
+        float: left;
+        width: 280px;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .krill {
+        margin-left: 0px;
+    }
+
+    .krill h4 {
+        justify-content: center;
+        text-align: center;
+        margin: 10% 0% 0% 0%;
+    }
+
+    .seahorse {
+        display: none;
+    }
+
+    .seahorse img {
+        display: none;
+    }
+
+    .whale {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .whale p {
+        text-align: center;
+    }
+
+    .crab {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .crab h4 {
+        justify-content: center;
+        text-align: center;
+        margin: 10% 20% 0% 25%;
+    }
+
+    .greenlandshark {
+        margin-left: 47px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .greenlandshark p {
+        text-align: center;
+    }
+
+    .nurseshark {
+        display: none;
+    }
+
+    footer {
+        margin-top: 210px;
+        margin-right: 20px;
+    }
+}

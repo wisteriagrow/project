@@ -1,0 +1,77 @@
+body {
+    background-image: url(images/homeintrobackground.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height:auto;
+    background-position: center center;
+    text-align:center;
+    margin:auto;
+    padding:0;      
+}
+
+#wrapper {
+    color: aliceblue;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.purplecow {
+    font-size: 25px;
+    margin-top: 70px;
+}
+.yellowdog {
+    font-size: 15px;
+    margin-top: 150px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+#wrapper a {
+    text-decoration: none;
+    color: aliceblue;
+}
+#wrapper p {
+    font-size:large;
+    text-transform: lowercase;
+}
+#wrapper a:hover {
+    text-decoration:underline;
+}
+footer {
+    margin-top: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
+    text-align: center;
+    color: aliceblue;
+}
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+}
+footer a:hover {
+    background-color: rgb(49, 63, 75);
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(49, 63, 75);
+}
+@media only screen and (max-width: 768px) {
+    footer {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 80px;
+    }
+    .yellowdog {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .purplecow {
+        font-size: 18px;
+    }
+}

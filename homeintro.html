@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homeintro.css">
+    <title>Emily Fleury Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <div id="wrapper">
+            <div class="purplecow">
+                <h1>Emily Fleury</h1>
+            </div>
+            <div class="yellowdog">
+                <nav>
+                    <h2><a href="home/home.html">View Portfolio</a></h2>
+                </nav>
+            </div>
+            <audio id="myAudio">
+                <source src="waves.mp3" type="audio/mpeg">
+                <source src="waves.ogg" type="audio/ogg">
+                <a href="waves.mp3"> Download the audio file</a>
+            </audio>
+            <p onclick="playAudio()">Play </p>
+            <p onclick="pauseAudio()">Pause</p>
+        </div>
+        <footer>
+
+            <a href="mailto:efleury00@mylangara.ca">Contact Me</a>
+        </footer>
+        <script>
+            var audio = document.getElementById('myAudio');
+
+            function playAudio() {
+                audio.play();
+            }
+
+            function pauseAudio() {
+                audio.pause();
+            }
+
+        </script>
+
+    </main>
+</body>
+
+</html>
